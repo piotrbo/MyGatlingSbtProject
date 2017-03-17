@@ -3,9 +3,7 @@ package computerdatabase
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
-/**
-  * Created by piotrbo on 17/03/17.
-  */
+
 object Search {
 
   val feeder = csv("search.csv").random;
